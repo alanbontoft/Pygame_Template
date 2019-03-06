@@ -8,7 +8,7 @@ def main():
     app = application.App()
     app.main_loop()
     
-    # clean up when main loop exits
+    """ clean up when main loop exits """
     pg.quit()
     sys.exit()
 
